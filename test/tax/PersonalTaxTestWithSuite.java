@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({PersonalTaxTest.class})
+@Suite.SuiteClasses({PersonalTaxExceptionTest.class, PersonalTaxTest.class,
+        PersonalTaxWithBoundaryTest.class, PersonalTaxWithPathTest.class,PersonalTaxByParamsTest.class})
 public class PersonalTaxTestWithSuite {
 
 }

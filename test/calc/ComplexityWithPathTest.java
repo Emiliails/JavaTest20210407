@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  * 4种测试路径
  */
 
-public class ComplexityTest {
+public class ComplexityWithPathTest {
     Complexity complexity = null;
 
     @AfterClass
